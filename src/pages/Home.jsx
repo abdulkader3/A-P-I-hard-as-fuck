@@ -13,9 +13,8 @@ const Home = () => {
   const navigate = useNavigate()
 
   const next = (ohYeah) => {
-    // navigate('/Nextpage')
-    console.log(ohYeah)
-    // dispatch(loveFORever(ohYeah))
+     navigate('/Nextpage')
+     dispatch(loveFORever(ohYeah))
 }
 const dispatch = useDispatch
 
