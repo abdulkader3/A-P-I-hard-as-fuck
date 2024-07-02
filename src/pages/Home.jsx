@@ -16,7 +16,7 @@ const Home = () => {
      navigate('/Nextpage')
      dispatch(loveFORever(ohYeah))
 }
-const dispatch = useDispatch
+const dispatch = useDispatch()
 
 
 
